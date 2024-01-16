@@ -15,10 +15,10 @@ faqEntries.forEach(function (entry) {
         
         const icon = entry.querySelector('img');
 
-        if(answer.classList.contains('hidden')){
-            icon.src = '../images/icon-plus.svg'
-        }else{
-            icon.src = '../images/icon-minus.svg'
-        }
+if(answer.classList.contains('hidden')){
+    icon.src = '../assets/images/someImages.jpg';
+}else{
+    icon.src = '../assets/images/icon-minus.svg';
+}
     };
 });
