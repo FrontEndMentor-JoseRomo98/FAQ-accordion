@@ -16,7 +16,7 @@ faqEntries.forEach(function (entry) {
         const icon = entry.querySelector('img');
 
 if(answer.classList.contains('hidden')){
-    icon.src = '../assets/images/someImages.jpg';
+    icon.src = '../assets/images/icon-plus.svg';
 }else{
     icon.src = '../assets/images/icon-minus.svg';
 }
