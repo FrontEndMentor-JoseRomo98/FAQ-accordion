@@ -16,9 +16,9 @@ faqEntries.forEach(function (entry) {
         const icon = entry.querySelector('img');
 
         if(answer.classList.contains('hidden')){
-            icon.src = '../assets/images/icon-plus.svg'
+            icon.src = '../assets/icon-plus.svg'
         }else{
-            icon.src = '../assets/images/icon-minus.svg'
+            icon.src = '../assets/icon-minus.svg'
         }
     };
 });
