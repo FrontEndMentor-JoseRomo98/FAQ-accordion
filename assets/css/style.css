@@ -1,6 +1,6 @@
 @font-face {
     font-family: Work Sans;
-    src: url(./assets/fonts/WorkSans-VariableFont_wght.ttf);
+    src: url(assets/fonts/WorkSans-VariableFont_wght.ttf);
 }
 
 :root {
@@ -29,7 +29,7 @@ body {
     font-size: 16px;
     background-color: var(--lightPink);
     margin: 0;
-    background-image: url(./assets/images/background-pattern-mobile.svg);
+    background-image: url(assets/images/background-pattern-mobile.svg);
     background-repeat: no-repeat;
     background-size: contain;
     font-family: var(--mainFont);
@@ -38,7 +38,7 @@ body {
 
 @media(min-width:768px){
     body {
-        background-image: url(./assets/images/background-pattern-desktop.svg);
+        background-image: url(assets/images/background-pattern-desktop.svg);
     }
     
 }
