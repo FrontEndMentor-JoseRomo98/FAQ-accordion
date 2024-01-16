@@ -2,8 +2,7 @@
 
   
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
-
+This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
   
 
 ## Table of contents
@@ -33,8 +32,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Screenshot
 
   
-![](./screenshots/1080p%20Desktop-1704844141286.jpeg)
-![](./screenshots/iPhone%2012%20Pro-1704844149281.jpeg)
+![](./screenshots/desktop.jpeg)
+![](./screenshots/mobile.jpeg)
 
  
 
