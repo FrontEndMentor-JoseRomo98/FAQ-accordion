@@ -14,11 +14,12 @@ faqEntries.forEach(function (entry) {
         answer.classList.toggle('hidden');
         
         const icon = entry.querySelector('img');
+        const iconPath = icon.src.substring(0, icon.src.lastIndexOf('/')) + '/';
 
         if(answer.classList.contains('hidden')){
-            icon.src = '../assets/images/icon-plus.svg'
+            icon.src = iconPath + 'icon-plus.svg'
         }else{
-            icon.src = '../assets/images/icon-minus.svg'
+            icon.src = iconPath + 'icon-minus.svg'
         }
     };
 });
